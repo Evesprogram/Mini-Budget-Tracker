@@ -1,0 +1,127 @@
+/* Progress bar for goals and budgets */
+.goal-progress {
+  background: #eee;
+  border-radius: 6px;
+  height: 12px;
+  margin: 0.3rem 0 0.7rem 0;
+  width: 100%;
+  overflow: hidden;
+}
+.goal-progress .bar {
+  background: #81c784;
+  height: 100%;
+  border-radius: 6px;
+  transition: width 0.4s;
+}
+/* Icon button style */
+.icon-btn {
+  background: none;
+  border: none;
+  color: #e57373;
+  cursor: pointer;
+  padding: 0 0.3rem;
+  font-size: 1rem;
+}
+.icon-btn:hover {
+  color: #b71c1c;
+}
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: #f4f6f9;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background: #004d40;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}
+
+.container {
+  max-width: 900px;
+  margin: 2rem auto;
+  padding: 1rem;
+}
+
+.card {
+  background: white;
+  border-radius: 8px;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.balance {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #004d40;
+}
+
+button {
+  background: #004d40;
+  color: white;
+  border: none;
+  padding: 0.6rem 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #00695c;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+table th, table td {
+  padding: 0.8rem;
+  border-bottom: 1px solid #ddd;
+}
+
+table tr:nth-child(even) {
+  background: #f9f9f9;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  background: #00695c;
+  padding: 0.5rem;
+}
+
+nav button {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 1rem;
+  margin: 0 1rem;
+  cursor: pointer;
+}
+
+nav button.active {
+  border-bottom: 2px solid #fff;
+}
+nav button.active {
+  border-bottom: 2px solid #fff;
+}
+
+.goal-progress {
+  background: #ddd;
+  border-radius: 8px;
+  height: 20px;
+  margin-top: 10px;
+  width: 100%;
+}
+
+.goal-progress .bar {
+  background: #004d40;
+  height: 100%;
+  border-radius: 8px;
+  width: 0;
+  transition: width 0.5s ease;
+}
+
